@@ -77,8 +77,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
-<img src="images/ipad - 2.png" width="500px" alt="de homepagina">
+<img src="images/iPad - 2.png" width="500px" alt="de homepagina">
 
 **Screenshot(s) van de tweede pagina (small screen):**
 
-<img src="images/ipad - 25.png.svg" width="500px" alt="pagina mijn lijst">
+<img src="images/iPad - 25.png.svg" width="500px" alt="pagina mijn lijst">
