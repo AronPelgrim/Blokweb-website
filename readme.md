@@ -48,14 +48,13 @@ main section gegeven te hebben, werd de footer wel zichtbaar.
 
 **Screenshot(s):**
 
--screenshot(s) van hoe ver je bent met korte uitleg-
-<img src="images/screenshot1.jpg" width="500px" alt="breakdown schets stap 1">
+<img src="images/screenshot1.jpg" width="500px" alt="screenshot 1e paginadeel">
 Dit is de header van de pagina en een achtergrond met een linear gradient eroverheen.
 
-<img src="images/screenshot2.jpg" width="500px" alt="breakdown schets stap 1">
+<img src="images/screenshot2.jpg" width="500px" alt="screenshot 2e paginadeel">
 Dit zijn meerdere sections onder elkaar inde vorm van een caroussel, met daarin verschillende boeken.
 
-<img src="images/screenshot3.jpg" width="500px" alt="breakdown schets stap 1">
+<img src="images/screenshot3.jpg" width="500px" alt="screenshot 3e paginadeel">
 Onder aan de pagina is een fixed footer te zien met daarin social media links.
 
 ### Agenda voor meeting
