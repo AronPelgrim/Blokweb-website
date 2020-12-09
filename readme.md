@@ -37,13 +37,13 @@ wat lastig bleek, dit is uiteindelijk wel gelukt. Dit video element heb ik met e
 
 **Screenshot(s):**
 
-<img src="images/screenshot4.JPG" width="300px" alt="screenshot 1e paginadeel">
+<img src="images/screenshot4.png" width="300px" alt="screenshot 1e paginadeel">
 Dit is de pagina die iets is geupdate, hij is nu responsive, dus ook voor desktop formaat.
 
-<img src="images/screenshot5.JPG" width="300px" alt="screenshot 2e paginadeel">
+<img src="images/screenshot5.png" width="300px" alt="screenshot 2e paginadeel">
 Dit is de pagina die iets is geupdate, hij is nu responsive, dus ook voor tablet formaat.
 
-<img src="images/screenshot6.JPG" width="300px" alt="screenshot 3e paginadeel">
+<img src="images/screenshot6.png" width="300px" alt="screenshot 3e paginadeel">
 Dit is de pagina die iets is geupdate, op de telefoon formaat.
 
 ### Agenda voor meeting
@@ -93,7 +93,6 @@ Onder aan de pagina is een fixed footer te zien met daarin social media links.
 | Het kort houden| HTML controlleren. |Html controlleren.|                  |
 | van CSS code.  | Positionering.     |                  |                  |
 | Semantiek.     |                    |                  |                  |
-|                |                    |                  |                  |
 
 ### Verslag van meeting
 
