@@ -8,9 +8,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Bronnenlijst
 1. https://codepen.io/shooft/pen/zYqJLvZ
 2. https://codepen.io/shooft/pen/qBZPdGm
-
-
-
+3. https://www.w3schools.com/howto/howto_css_fullscreen_video.asp
 
 ## Eindgesprek (week 7/8)
 
@@ -30,7 +28,36 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+### Stand van zaken
+
+-dit ging goed & dit was lastig-
+Ik vond het lastig om te zien hoe ik de pagina het beste responsive kon maken. Ik heb uiteindelijk met calc gewerkt om
+zo het formaat van elementen responsive te maken. Verder heb ik een achtergrondvideo toegevoegd waarbij het positioneren
+wat lastig bleek, dit is uiteindelijk wel gelukt. Dit video element heb ik met een media query responsive moeten maken.
+
+**Screenshot(s):**
+
+<img src="images/screenshot4.JPG" width="300px" alt="screenshot 1e paginadeel">
+Dit is de pagina die iets is geupdate, hij is nu responsive, dus ook voor desktop formaat.
+
+<img src="images/screenshot5.JPG" width="300px" alt="screenshot 2e paginadeel">
+Dit is de pagina die iets is geupdate, hij is nu responsive, dus ook voor tablet formaat.
+
+<img src="images/screenshot6.JPG" width="300px" alt="screenshot 3e paginadeel">
+Dit is de pagina die iets is geupdate, op de telefoon formaat.
+
+### Agenda voor meeting
+
+-samen met je groepje opstellen-
+
+| Aron           | Christiaan         | Menno            | Eva              |
+| ---            | ---                | ---              | ---              |
+| Responsive mak-| CSS positioneren   | Element centreren|                  |
+| en de beste    | met zo min mogelijk| met CSS.         |                  |
+| opties daarvan.| herhaling.         |                  |                  |
+
+### Verslag van meeting
+
 
 
 
@@ -61,16 +88,17 @@ Onder aan de pagina is een fixed footer te zien met daarin social media links.
 
 -samen met je groepje opstellen-
 
-| student 1      | student 2          | student 3        | student 4        |
+| Aron           | Christiaan         | Menno            | Eva              |
 | ---            | ---                | ---              | ---              |
-| Het kort houden| HTML controlleren. | Html controlleren|
-| van CSS code.  | Positionering.     |                  | en dan ik dat    |
-| Semantiek.     |                    |                  | dit wil ik zeker |
+| Het kort houden| HTML controlleren. |Html controlleren.|                  |
+| van CSS code.  | Positionering.     |                  |                  |
+| Semantiek.     |                    |                  |                  |
 |                |                    |                  |                  |
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
+Het is goed om de CSS goed te organiseren en niet code dubbel te gebruiken als dat niet nodig is.
+Het is voor mij handig om variabele te gebruiken voor de kleurthema's. Zo kan ik verschillende thema's maken.
 
 
 
