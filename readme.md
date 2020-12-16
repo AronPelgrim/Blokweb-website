@@ -26,6 +26,12 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 
+## Verslag screenreader
+
+Als test om te zien of mijn website voor iedereen toegankelijk is, ben ik met de screenreader over mijn website heengegaan. Ik kwam er gelijk achter dat deze met de Tab toets alleen over de elementen van de header gaat en de button van de eerste section. Wat na de header komt is niet te bereiken met deze toets. De links in de menubalk worden goed voorgelezen, dit zijn namelijk afbeeldingen voorzien van alt tekst. Ook de button van de eerste section wordt goed voorgelezen. Door de rest van de pagina kan je wel klikken met de muis, wat niet bepaald toegankelijk is. Wat er dan door de screenreader wordt voorgelezen is ook niet bepaald duidelijk. Dit moet dus nog verbeterd worden.
+
+
+
 ## Voortgang 2 (week 5)
 
 ### Stand van zaken
@@ -57,7 +63,7 @@ Dit is de pagina die iets is geupdate, op de telefoon formaat.
 | opties daarvan.| herhaling.         |                  |                  |
 
 ### Verslag van meeting
-
+De meeting is goed verlopen. Ik heb te horen gekregen dat de beste manier om elementen responsive te maken, is om clamp te gebruiken. Daarbinnen is het beste om met variabele te werken. Dat is dan ook iets wat ik ga aanpassen. Verder hebben wij allemaal het advies gekregen om vaker updates van de website, direct te commiten in github. Ook kregen wij het advies om de documentatie wat uitgebreider te omschrijven. Daar zal ik dan ook meer op gaan letten. Tot slot werd er gezegd dat iedereen uit het groepje goed op schema liep qua website.
 
 
 
