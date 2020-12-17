@@ -22,7 +22,33 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+### Stand van zaken
+
+-dit ging goed & dit was lastig-
+Deze week ging verliep vrij soepel. Qua nieuwe content heb ik weinig toegevoegd, behalve een grid met wat een aantal afbeeldingen. Voor de rest ben ik
+begonnen met de website toegankelijk maken voor screenreaders, hier ben ik een klein beetje op vast gelopen. Het is namelijk niet mogelijk om over met de tab knop
+te komen. Wat wel is gelukt, is het responsive maken van de website. Voorheen was het al gelukt dat de typografie en andere elementen met de pagina meeschalen,
+maar als de pagina te groot of te klein werd, zouden deze elementen niet meer kloppen. Ik had daarom een minimun en maximum grootte nodig.
+Ik ben op advies van Marvin gaan kijken naar clamp. Na een aantal dingen hierover gelezen te hebben, heb ik dit succesvol toegepast in de website. Qua responisvenes
+werkt de website nu dus goed.
+
+**Screenshot(s):**
+
+<img src="images/screenshot7.png" width="300px" alt="screenshot 1e paginadeel">
+Op de pagina zelf is nu de grid 'uitgelicht' toegevoegd. Verder zijn alle aanpassingen in de code plaatsgevonden, qua responisvenes en toegankelijkheid.
+
+### Agenda voor meeting
+
+-samen met je groepje opstellen-
+
+| Aron            | Christiaan         | Menno            | Eva              |
+| ---             | ---                | ---              | ---              |
+|Een probleem met |
+|toegankelijkheid |
+|voor screenreader|
+
+### Verslag van meeting
+
 
 
 
