@@ -36,16 +36,17 @@ werkt de website nu dus goed.
 
 <img src="images/screenshot7.png" width="300px" alt="screenshot 1e paginadeel">
 Op de pagina zelf is nu de grid 'uitgelicht' toegevoegd. Verder zijn alle aanpassingen in de code plaatsgevonden, qua responisvenes en toegankelijkheid.
+De footer is nu niet te zien, dat komt doordat deze fixed is en niet snel genoeg laadt voor de screenshot.
 
 ### Agenda voor meeting
 
 -samen met je groepje opstellen-
 
-| Aron            | Christiaan         | Menno            | Eva              |
-| ---             | ---                | ---              | ---              |
-|Een probleem met |
-|toegankelijkheid |
-|voor screenreader|
+| Aron             | Christiaan         | Menno            | Eva              |
+| ---              | ---                | ---              | ---              |
+|Een probleem met  |
+|toegankelijkheid  |
+|voor screenreader.|
 
 ### Verslag van meeting
 
