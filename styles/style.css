@@ -86,11 +86,11 @@ main section img {
 }
 
 main section img:hover {
-    box-shadow: 0 0 25px rgba(120,120,120,0.6);
+    box-shadow: 0 0 25px rgba(120, 120, 120, 0.6);
 }
 
 main section img:focus {
-    box-shadow: 0 0 25px rgba(255,115,32,0.6);
+    box-shadow: 0 0 25px rgba(255, 115, 32, 0.6);
 }
 
 main section:nth-of-type(1) {
@@ -109,6 +109,27 @@ main section:nth-of-type(1) H1 {
     text-align: center;
     top: 40%;
     letter-spacing: 0.05em;
+    animation: titelanim 6s infinite alternate;
+}
+
+@keyframes titelanim {
+    0% {
+        letter-spacing: -3em;
+        filter: blur(0.7em);
+    }
+
+    50% {
+        letter-spacing: -1em;
+        filter: blur(0.3em);
+    }
+
+    70% {
+        letter-spacing: 0;
+    }
+
+    100% {
+        letter-spacing: 0;
+    }
 }
 
 button:nth-of-type(1) {
