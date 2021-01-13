@@ -9,6 +9,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 1. https://codepen.io/shooft/pen/zYqJLvZ
 2. https://codepen.io/shooft/pen/qBZPdGm
 3. https://www.w3schools.com/howto/howto_css_fullscreen_video.asp
+4. https://probiblio1.hostedwise.nl/wise-apps/catalog/2500/search/iets/*?wf_publiek=JN
+5.
 
 ## Eindgesprek (week 7/8)
 
