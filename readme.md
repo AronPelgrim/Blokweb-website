@@ -13,10 +13,15 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Eindgesprek (week 7/8)
 
 -dit ging goed & dit was lastig-
+De laatste periode ben ik vooral bezig geweest met het toevoegen van animaties, het toevoegen van Javascript en het maken van de tweede pagina. Ook ben ik bezig geweest om te kijken hoe ik mijn css code kon inkorten door dubbele code weg te halen. Verder ben ik nog bezig geweest met de vormgeving van de content. Die is op dit moment beter presenteerbaar naar mijn mening. Wat eigenlijk makkelijk ging waren het toevoegen van aninmaties en het inkorten van de css. Ik had nooit eerder met keyframes gewerkt, maar door de oefeningen in de les ging dit vrij gemakkelijk. Verder kwam ik erachter dat ik wat css code algemener kon maken (het gaat om de h2 van de sections op de index). Wat ik deze keer wat lastiger vond was het maken van het favorietenlijstje. Ondanks dat er een goed voorbeeld was van de oefeningen, had ik toch wat moeite om deze werkend te maken. Ik moest daarom eerst de code goed snappen om die om mijn eigen pagina toe te passen. Verder ben ik dus ook bezig geweest met de detailpagina. Dit was aan het begin lastig omdat ik sections anders wilde stijlen, dit was niet mogelijk omdat ik geen classes had gebruikt. Ik heb daarom besloten om wel classes te gebruiken op de main, zodat ik de code specifiek per pagina kon maken.
 
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat-
+<img src="images/screenshot8.JPG" width="300px" alt="screenshot 1e paginadeel">
+Dit is de indexpagina, (footer laadt niet snel genoeg voor de screenshot).
+
+<img src="images/screenshot9.JPG" width="300px" alt="screenshot 1e paginadeel">
+Dit is de detailpagina, (footer laadt niet snel genoeg voor de screenshot).
 
 
 
@@ -49,7 +54,8 @@ De footer is nu niet te zien, dat komt doordat deze fixed is en niet snel genoeg
 |voor screenreader.|
 
 ### Verslag van meeting
-
+We hebben deze keer vooral naar de voortgang gekeken van de websites. Ik had zelf nog een
+probleempje met de screenreader, als ik met tab over de elementen heen wilde gaan, pakte de screenreader niet alles. Er is mij nu verteld dat dat komt omdat dat alleen gebeurt als het element een button of link is. Verder is er een goede uitleg gegeven over wat je kan doen met ::before en ::after. Tot slot heb ik mijn website even laten zien aan het groepje omdat ik clamp had toegevoegd.
 
 
 
