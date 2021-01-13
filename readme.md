@@ -17,10 +17,10 @@ De laatste periode ben ik vooral bezig geweest met het toevoegen van animaties, 
 
 **Screenshot(s):**
 
-<img src="images/screenshot8.JPG" width="300px" alt="screenshot 1e paginadeel">
+<img src="images/screenshot8.png" width="300px" alt="screenshot 1e paginadeel">
 Dit is de indexpagina, (footer laadt niet snel genoeg voor de screenshot).
 
-<img src="images/screenshot9.JPG" width="300px" alt="screenshot 1e paginadeel">
+<img src="images/screenshot9.png" width="300px" alt="screenshot 1e paginadeel">
 Dit is de detailpagina, (footer laadt niet snel genoeg voor de screenshot).
 
 
