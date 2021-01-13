@@ -4,10 +4,11 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Bebas Neue', cursive;
 }
 
+/* algemene variabele */
 body {
+    font-family: 'Bebas Neue', cursive;
     --achtergrondkleur: #22252a;
     --normalekleur: #FF7320;
     --filmh1klein: 1.5em;
@@ -15,6 +16,7 @@ body {
     --filmh1groot: 2.7em;
 }
 
+/* navigatie */
 nav ul {
     display: flex;
     text-align: center;
@@ -50,6 +52,15 @@ nav li a {
     letter-spacing: 0.1em;
 }
 
+/* algemene code vormgeving section met lijst boeken erin */
+section {
+    background-color: var(--achtergrondkleur);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 40% 80%;
+}
+
+/* list voor de boekenafbeeldingen */
 section ul {
     margin: 0;
     padding: 0;
@@ -71,6 +82,7 @@ section li {
     scroll-snap-align: center;
 }
 
+/* code voor afbeeldingen van de boeken */
 section img {
     width: clamp(8em, 40vw, 13em);
     margin: 0 0 0.3em 1.4em;
@@ -84,6 +96,7 @@ section img:hover {
     cursor: pointer;
 }
 
+/* Algemene h2 door de hele pagina */
 section H2 {
     position: relative;
     font-size: clamp(var(--filmh1klein), var(--filmh1middel), var(--filmh1groot));
@@ -94,6 +107,18 @@ section H2 {
     letter-spacing: 0.05em;
 }
 
+/* code voor 'favorieten' button op de boeken */
+button {
+    position: absolute;
+    top: 3%;
+    left: 77%;
+    font-size: clamp(1.4em, 4vw, 1.8em);
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+/* code voor 1e section met banner */
 .index section:nth-of-type(1) {
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url("../images/banner_header.jpg");
     background-repeat: no-repeat;
@@ -113,6 +138,7 @@ section H2 {
     animation: titelanim 6s;
 }
 
+/* animatie voor de h1 op de 1e section */
 @keyframes titelanim {
     0% {
         letter-spacing: -3em;
@@ -133,6 +159,7 @@ section H2 {
     }
 }
 
+/* code voor de link 'bekijk' op de 1e section */
 .index section:nth-of-type(1) a {
     border: none;
     padding: 0.5em 1.8em;
@@ -156,46 +183,17 @@ section H2 {
     cursor: pointer;
 }
 
-.index section:nth-of-type(1) a:focus {
+section a:focus {
     border: 4px solid purple;
+    outline: none;
 }
 
-.index section:nth-of-type(1) a:active {
+section a:active {
     background-color: purple;
     color: white;
 }
 
-.index button {
-    position: absolute;
-    top: 3%;
-    left: 77%;
-    font-size: clamp(1.4em, 4vw, 1.8em);
-    background: transparent;
-    border: none;
-    outline: none;
-}
-
-.index section:nth-of-type(2) {
-    background-color: var(--achtergrondkleur);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 40% 80%;
-}
-
-.index section:nth-of-type(3) {
-    background-color: var(--achtergrondkleur);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 40% 80%;
-}
-
-.index section:nth-of-type(4) {
-    background-color: var(--achtergrondkleur);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 40% 80%;
-}
-
+/* Section met video element*/
 /* Deze code heb ik van de 3e bron uit de readme*/
 .index section:nth-of-type(4) video {
     position: relative;
@@ -224,13 +222,7 @@ section H2 {
     text-shadow: 0 0 0.1em var(--achtergrondkleur);
 }
 
-.index section:nth-of-type(5) {
-    background-color: var(--achtergrondkleur);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 40% 80%;
-}
-
+/* aangepaste section vormgeving om footer te tonen */
 .index section:nth-of-type(6) {
     background-color: var(--achtergrondkleur);
     background-repeat: no-repeat;
@@ -241,6 +233,7 @@ section H2 {
     padding-bottom: 3vh;
 }
 
+/* aangepaste lijst met een gird ipv flexbox */
 .index section:nth-of-type(6) ul {
     display: grid;
     grid-template-columns: clamp(9em, 45vw, 14.5em) clamp(9em, 45vw, 14.5em) clamp(9em, 45vw, 14.5em) clamp(9em, 45vw, 14.5em);
@@ -250,6 +243,7 @@ section H2 {
     overflow: auto;
 }
 
+/* animatie voor elementen op detail pagina */
 @keyframes detailanim {
     0% {
         transform: scale(0.5);
@@ -271,6 +265,7 @@ section H2 {
     }
 }
 
+/* eerste section detail pagina */
 .detail section:nth-of-type(1) {
     background: linear-gradient(to right, rgb(0, 0, 0, 0.95), rgba(0, 0, 0, 0.2)), url("../images/banner_header.jpg");
     background-repeat: no-repeat;
@@ -279,6 +274,7 @@ section H2 {
     background-position: 40% 80%;
 }
 
+/* h1 van 1e section detail */
 .detail section:nth-of-type(1) H1 {
     position: relative;
     font-size: clamp(3.5em, 8vw, 8em);
@@ -291,6 +287,7 @@ section H2 {
     animation: detailanim 3s;
 }
 
+/* p van 1e section detail */
 .detail section:nth-of-type(1) p {
     position: relative;
     font-size: clamp(1em, 1vw, 3em);
@@ -304,6 +301,7 @@ section H2 {
     font-family: 'Poppins', sans-serif;
 }
 
+/* h2 van 1e section detail */
 .detail section:nth-of-type(1) h2 {
     position: relative;
     font-size: clamp(1.4em, 1.5vw, 2.5em);
@@ -316,6 +314,7 @@ section H2 {
     font-family: 'Poppins', sans-serif;
 }
 
+/* h3 van 1e section detail */
 .detail section:nth-of-type(1) h3 {
     position: relative;
     font-size: clamp(1.2em, 1vw, 2em);
@@ -328,10 +327,11 @@ section H2 {
     font-family: 'Poppins', sans-serif;
 }
 
-.detail button {
+/* favorieten button */
+.detail section:nth-of-type(1) button {
     position: relative;
-    top: 23%;
-    padding-left: 5%;
+    top: 25%;
+    left: 5%;
     font-size: clamp(2.5em, 3.5vw, 5em);
     background: transparent;
     border: none;
@@ -339,6 +339,7 @@ section H2 {
     animation: detailanim 3s;
 }
 
+/* vormgeving van 2e section detail */
 .detail section:nth-of-type(2) {
     background-color: var(--achtergrondkleur);
     box-shadow: 0px 15px 10px -15px black;
@@ -364,6 +365,7 @@ footer img {
     margin-top: 9.5vh;
 }
 
+/* responsivenes van video en 1e section detail pagina*/
 @media (max-width:70em) {
     .index section:nth-of-type(4) video {
         width: 100vw;
