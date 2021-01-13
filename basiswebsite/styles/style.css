@@ -1,0 +1,384 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', cursive;
+}
+
+body {
+    --achtergrondkleur: #22252a;
+    --normalekleur: #FF7320;
+    --filmh1klein: 1.5em;
+    --filmh1middel: 9vw;
+    --filmh1groot: 2.7em;
+}
+
+nav ul {
+    display: flex;
+    text-align: center;
+    padding: 15px 0 5px 0;
+    position: fixed;
+    width: 100vw;
+    z-index: 2;
+    background-color: var(--achtergrondkleur);
+    box-shadow: 0px 15px 10px -15px black;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+nav li:first-of-type {
+    /* Deze margin code heb ik van de 2e bron uit de readme. */
+    margin-right: auto;
+    text-align: left;
+}
+
+nav li img {
+    width: calc(1em + 1vw);
+}
+
+nav li a {
+    padding: 1.2vw 0.8em;
+    color: var(--normalekleur);
+    font-size: calc(1.1em + 1.2vw);
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+section ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    overflow: auto;
+    /* Deze code heb ik van de 1e bron uit de readme*/
+    scroll-snap-type: x mandatory;
+    /* Deze code heb ik van de 1e bron uit de readme*/
+    scroll-behavior: smooth;
+}
+
+section li {
+    position: relative;
+    max-width: 32em;
+    padding: 0;
+    flex-shrink: 0;
+    /* Deze code heb ik van de 1e bron uit de readme*/
+    scroll-snap-align: center;
+}
+
+section img {
+    width: clamp(8em, 40vw, 13em);
+    margin: 0 0 0.3em 1.4em;
+    transition: 0.4s;
+    box-shadow: 0px 15px 10px -10px black;
+    border-radius: 10px;
+}
+
+section img:hover {
+    border: 4px solid white;
+    cursor: pointer;
+}
+
+section H2 {
+    position: relative;
+    font-size: clamp(var(--filmh1klein), var(--filmh1middel), var(--filmh1groot));
+    text-transform: uppercase;
+    color: white;
+    text-align: left;
+    padding: 1em 0 0.2em 0.8em;
+    letter-spacing: 0.05em;
+}
+
+.index section:nth-of-type(1) {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url("../images/banner_header.jpg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position: 40% 80%;
+}
+
+.index section:nth-of-type(1) H1 {
+    position: relative;
+    font-size: clamp(3.5em, 8vw, 8em);
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    top: 40%;
+    letter-spacing: 0.05em;
+    animation: titelanim 6s;
+}
+
+@keyframes titelanim {
+    0% {
+        letter-spacing: -3em;
+        filter: blur(0.7em);
+    }
+
+    50% {
+        letter-spacing: -1em;
+        filter: blur(0.3em);
+    }
+
+    70% {
+        letter-spacing: 0;
+    }
+
+    100% {
+        letter-spacing: 0.05em;
+    }
+}
+
+.index section:nth-of-type(1) a {
+    border: none;
+    padding: 0.5em 1.8em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: transparent;
+    font-size: clamp(1.4em, 4vw, 1.8em);
+    color: white;
+    position: absolute;
+    bottom: calc(3.5em + 10vh);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 4px solid var(--normalekleur);
+    transition: 0.4s;
+}
+
+.index section:nth-of-type(1) a:hover {
+    color: #22252a;
+    background-color: var(--normalekleur);
+    cursor: pointer;
+}
+
+.index section:nth-of-type(1) a:focus {
+    border: 4px solid purple;
+}
+
+.index section:nth-of-type(1) a:active {
+    background-color: purple;
+    color: white;
+}
+
+.index button {
+    position: absolute;
+    top: 3%;
+    left: 77%;
+    font-size: clamp(1.4em, 4vw, 1.8em);
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.index section:nth-of-type(2) {
+    background-color: var(--achtergrondkleur);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 40% 80%;
+}
+
+.index section:nth-of-type(3) {
+    background-color: var(--achtergrondkleur);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 40% 80%;
+}
+
+.index section:nth-of-type(4) {
+    background-color: var(--achtergrondkleur);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 40% 80%;
+}
+
+/* Deze code heb ik van de 3e bron uit de readme*/
+.index section:nth-of-type(4) video {
+    position: relative;
+    width: 60vw;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 20%;
+    margin-bottom: -17%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.index section:nth-of-type(4) H2 {
+    position: absolute;
+    font-size: clamp(3em, 8vw, 8em);
+    text-transform: uppercase;
+    color: white;
+    text-align: left;
+    padding: 1em 0 0.2em 0.6em;
+    letter-spacing: 0.05em;
+    margin-top: 18%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    text-align: center;
+    text-shadow: 0 0 0.1em var(--achtergrondkleur);
+}
+
+.index section:nth-of-type(5) {
+    background-color: var(--achtergrondkleur);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 40% 80%;
+}
+
+.index section:nth-of-type(6) {
+    background-color: var(--achtergrondkleur);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 40% 80%;
+    box-shadow: 0px 15px 10px -15px black;
+    margin-bottom: 25vh;
+    padding-bottom: 3vh;
+}
+
+.index section:nth-of-type(6) ul {
+    display: grid;
+    grid-template-columns: clamp(9em, 45vw, 14.5em) clamp(9em, 45vw, 14.5em) clamp(9em, 45vw, 14.5em) clamp(9em, 45vw, 14.5em);
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
+    list-style: none;
+    overflow: auto;
+}
+
+@keyframes detailanim {
+    0% {
+        transform: scale(0.5);
+        filter: blur(1.2em);
+    }
+
+    50% {
+        transform: scale(0.7);
+        filter: blur(0.9em);
+    }
+
+    80% {
+        transform: scale(0.9);
+        filter: blur(0.5em);
+    }
+
+    100% {
+        letter-spacing: 0.05em;
+    }
+}
+
+.detail section:nth-of-type(1) {
+    background: linear-gradient(to right, rgb(0, 0, 0, 0.95), rgba(0, 0, 0, 0.2)), url("../images/banner_header.jpg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position: 40% 80%;
+}
+
+.detail section:nth-of-type(1) H1 {
+    position: relative;
+    font-size: clamp(3.5em, 8vw, 8em);
+    text-transform: uppercase;
+    color: white;
+    text-align: left;
+    top: 19%;
+    padding-left: 5%;
+    letter-spacing: 0.05em;
+    animation: detailanim 3s;
+}
+
+.detail section:nth-of-type(1) p {
+    position: relative;
+    font-size: clamp(1em, 1vw, 3em);
+    color: white;
+    text-align: left;
+    top: 18%;
+    padding-left: 5%;
+    letter-spacing: 0.05em;
+    width: 40vw;
+    animation: detailanim 3s;
+    font-family: 'Poppins', sans-serif;
+}
+
+.detail section:nth-of-type(1) h2 {
+    position: relative;
+    font-size: clamp(1.4em, 1.5vw, 2.5em);
+    color: white;
+    text-align: left;
+    top: 20%;
+    padding-left: 5%;
+    letter-spacing: 0.05em;
+    animation: detailanim 3s;
+    font-family: 'Poppins', sans-serif;
+}
+
+.detail section:nth-of-type(1) h3 {
+    position: relative;
+    font-size: clamp(1.2em, 1vw, 2em);
+    color: white;
+    text-align: left;
+    top: 21%;
+    padding-left: 5%;
+    letter-spacing: 0.05em;
+    animation: detailanim 3s;
+    font-family: 'Poppins', sans-serif;
+}
+
+.detail button {
+    position: relative;
+    top: 23%;
+    padding-left: 5%;
+    font-size: clamp(2.5em, 3.5vw, 5em);
+    background: transparent;
+    border: none;
+    outline: none;
+    animation: detailanim 3s;
+}
+
+.detail section:nth-of-type(2) {
+    background-color: var(--achtergrondkleur);
+    box-shadow: 0px 15px 10px -15px black;
+    margin-bottom: 25vh;
+    padding-bottom: 3vh;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    height: 25vh;
+    background-color: #22252a;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+footer img {
+    width: clamp(2.8em, 2.7vw, 3.3em);
+    height: clamp(2.8em, 2.7vw, 3.3em);
+    margin-top: 9.5vh;
+}
+
+@media (max-width:70em) {
+    .index section:nth-of-type(4) video {
+        width: 100vw;
+        border-radius: 0;
+    }
+
+    .index section:nth-of-type(4) {
+        padding-top: 10vh;
+    }
+
+    .detail section:nth-of-type(1) {
+        height: 140vh;
+    }
+
+    .detail section:nth-of-type(1) p {
+        width: 90vw;
+    }
+}
